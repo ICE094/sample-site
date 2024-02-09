@@ -91,7 +91,7 @@ footer {
   line-height: 200px;
 }
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
   .header-left {
     position: static;
     display: flex;
