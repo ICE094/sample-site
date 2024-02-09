@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>sample-site</title>
+    <title>sample-blog</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
   </head>
   <body>
+    <header>
+      <p class="site-title header-left">とあるブログサイト</p>
+      <ul class="header-right">
+        <li class="header-li">Home</li>
+        <li class="header-li">About</li>
+        <li class="header-li">Service</li>
+        <li class="header-li">Contact</li>
+      </ul>
+    </header>
     <div class="container">
-      <button class="btn"></button>
-      <button class="btn"></button>
-      <button class="btn"></button>
-      <button class="btn"></button>
+      <div class="blog-contents">
+        <h1 class="blog-title">ブログタイトル</h1>
+        <p class="date">更新日:2024/02/09</p>
+        <img
+          class="picture"
+          src="https://picsum.photos/640/320"
+          alt=" サムネイル"
+        />
+        <p>吾輩は猫である。名前はまだない。</p>
+        <p>
+          　どこで生れたか頓（とん）と見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれは書生という人間中で一番獰悪（どうあく）な種族であったそうだ。この書生というのは時々我々を捕（つかま）えて煮て食うという話である。しかしその当時は何という考（かんがえ）もなかったから別段恐しいとも思わなかった。ただ彼の掌（てのひら）に載せられてスーと持ち上げられた時何だかフワフワした感じがあったばかりである。掌の上で少し落ち付いて書生の顔を見たのがいわゆる人間というものの見始（みはじめ）であろう。この時妙なものだと思った感じが今でも残っている。第一毛を以て装飾されべきはずの顔がつるつるしてまるで薬缶（やかん）だ。その後猫にも大分逢（あ）ったがこんな片輪には一度も出会（でく）わした事がない。のみならず顔の真中が余りに突起している。そうしてその穴の中から時々ぷうぷうと烟（けむり）を吹く。どうも咽（む）せぽくて実に弱った。これが人間の飲む烟草（タバコ）というものである事は漸（ようや）くこの頃（ごろ）知った。
+        </p>
+      </div>
+
+      <dl class="menus">
+        <div class="menu">
+          <dt class="menu-title">メニュー1</dt>
+          <dd class="menu-content">メニューの中身</dd>
+        </div>
+        <div class="menu">
+          <dt class="menu-title">メニュー2</dt>
+          <dd class="menu-content">メニューの中身</dd>
+        </div>
+        <div class="menu">
+          <dt class="menu-title">メニュー3</dt>
+          <dd class="menu-content">メニューの中身</dd>
+        </div>
+      </dl>
     </div>
+    <footer>
+      <p class="copyright">Copyright © Your Web site 2024</p>
+    </footer>
   </body>
 </html>
