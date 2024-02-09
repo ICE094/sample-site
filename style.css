@@ -49,6 +49,10 @@ header {
   width: 360px;
 }
 
+.start-writing {
+  margin: 20px 0;
+}
+
 .menus {
   width: 240px;
   margin-left: 20px;
