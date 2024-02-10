@@ -1,3 +1,7 @@
+/* {
+  border: solid 1px red;
+}*/
+
 li {
   list-style: none;
 }
@@ -50,12 +54,11 @@ header {
 }
 
 .start-writing {
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 15px;
 }
 
 .menus {
-  width: 240px;
   margin-left: 20px;
   position: absolute;
   top: 64px;
@@ -63,6 +66,7 @@ header {
 }
 
 .menu {
+  width: 340px;
   margin-top: 30px;
   border: solid 1px #ccc;
   border-radius: 10px;
@@ -109,7 +113,8 @@ footer {
   }
 
   .picture {
-    width: 100vw;
+    width: 90vw;
+    margin: 0 5vw;
   }
 
   .menus {
@@ -125,5 +130,15 @@ footer {
     width: 33%;
     margin: 0;
     position: static;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menu {
+    width: 100vw;
+  }
+
+  .menus {
+    flex-direction: column;
   }
 }
